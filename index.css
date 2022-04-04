@@ -1,0 +1,45 @@
+.playerInfo {
+  display: grid;
+  width: 300px;
+  margin: auto;
+}
+.usrInput {
+  margin-bottom: 5%;
+}
+#whosTurn {
+  display: block;
+  margin: auto;
+}
+
+.gameboard {
+  display: grid;
+  margin: auto;
+  margin-top: 3%;
+  grid-template-columns: auto auto auto;
+  width: 300px;
+  height: 300px;
+}
+
+.heading {
+  display: block;
+  text-align: center;
+}
+.choice {
+  background-color: Transparent;
+  background-repeat: no-repeat;
+  border: solid;
+  cursor: pointer;
+  overflow: hidden;
+  font-size: 80px;
+}
+
+.choice:hover {
+  background-color: gray;
+}
+
+.reset {
+  margin-top: 5%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
